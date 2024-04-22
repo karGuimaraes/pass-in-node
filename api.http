@@ -2,7 +2,25 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "nlw teste",
+  "title": "novo evento",
   "details": "evento de programação",
-  "maximumAttendees": 10
+  "maximumAttendees": 1
 }
+
+### 
+
+POST http://localhost:3333/events/4ee28a93-a3a7-4367-ba8a-9ff18eb8077e/attendees
+Content-Type: application/json
+
+{
+  "name": "Pessoa teste",
+  "email": "testse@teste.com"
+}
+
+###
+
+GET http://localhost:3333/events/4ee28a93-a3a7-4367-ba8a-9ff18eb8077e
+
+###
+
+GET http://localhost:3333/attendees/1/badge
