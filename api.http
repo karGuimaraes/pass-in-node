@@ -2,7 +2,7 @@ POST http://localhost:3333/events
 Content-Type: application/json
 
 {
-  "title": "novo eventoss",
+  "title": "novo evento",
   "details": "evento de programação",
   "maximumAttendees": 1
 }
@@ -26,4 +26,8 @@ GET http://localhost:3333/events/f7abb587-a584-44de-9de0-e1c547e1364f
 GET http://localhost:3333/attendees/1/badge
 
 ###
-GET http://localhost:3333/attendees/1/check-in
+GET http://localhost:3333/attendees/4/check-in
+
+###
+
+GET http://localhost:3333/events/f7abb587-a584-44de-9de0-e1c547e1364f/attendees?query=teste
