@@ -22,7 +22,7 @@ API Pass.in é uma interface RESTful desenvolvida durante o evento NLW Unite pel
 
 - Node.js 🟢: Plataforma de execução de código JavaScript.
 - Prisma 🔍: ORM (Object-Relational Mapping) para banco de dados.
-- Fastify ⚡: Framework web rápido e eficiente.
+- Fastify ⚡: Framework web utilizado para criar uma API REST rápida e eficiente.
 - Swagger 📚: Ferramenta para documentar APIs RESTful.
 - Zod 🛡️: Biblioteca para validação de esquemas de dados em JavaScript.
 
