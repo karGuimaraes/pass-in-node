@@ -30,7 +30,7 @@ export async function createEvent(app : FastifyInstance) {
         const slug = generateSlug(title)
 
         const eventWithSlug = await prisma.event.findUnique({
-            where: { slug}
+            where: { slug }
         })
 
         if (eventWithSlug !== null) 
