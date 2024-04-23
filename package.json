@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/server.mjs",
-    "build": "tsup src --format esm",
     "dev": "tsx watch --env-file .env src/server.ts",
+    "build": "tsup src --format esm",
+    "start": "node dist/server.mjs",
     "db:migrate": "prisma migrate dev",
     "db:studio": "prisma studio"
   },
@@ -19,7 +19,7 @@
     "@faker-js/faker": "8.4.1",
     "@types/node": "20.11.30",
     "prisma": "5.11.0",
-    "tsup": "8.0.2",
+    "tsup": "^8.0.2",
     "tsx": "4.7.1",
     "typescript": "5.4.3"
   },
